@@ -1,0 +1,148 @@
+@media screen and (min-width: 331px) {
+  .card-header > p {
+    width: 120px;
+    padding: 18px;
+    font-size: 13px;
+  }
+
+  #nav-title > a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 467px) {
+  .wrapper > h1 > a {
+    font-size: 30px;
+  }
+
+  .card-header > p {
+    width: 150px;
+    padding: 20px;
+    font-size: 17px;
+  }
+
+  .card-header > picture > img {
+    height: 300px;
+  }
+
+  .customer-review__header > h5 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 609px) {
+  .hero {
+    background-image: url(../public/images/heros/hero-image_2-small.jpg);
+  }
+
+  .wrapper {
+    justify-content: space-around;
+  }
+
+  .wrapper > h1 > a {
+    font-size: 30px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .card-header > p {
+    width: 160px;
+    padding: 19px;
+    font-size: 15px;
+  }
+
+  .card-header > picture > img {
+    height: 250px;
+  }
+
+  .card-body > #rating-text {
+    font-size: 17px;
+  }
+
+  .card-body > h4 {
+    font-size: 20px;
+  }
+
+  #body-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero > .text-hero > h3 {
+    font-size: 35px;
+  }
+
+  .text-hero > button {
+    width: 150px;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .menu-rs {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #container__detail-page {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #header-detail > img {
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #title-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* Navbar */
+@media screen and (min-width: 583px) {
+  #icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  nav > ul {
+    position: absolute;
+    display: hidden;
+    margin: 0 auto;
+    left: 0;
+    top: 90px;
+    right: 0px;
+    background-color: white;
+    transform: translate(100%, 0);
+  }
+
+  .open {
+    display: block;
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+  }
+
+  nav > ul > li {
+    padding: 20px;
+    border-bottom: 0.5px solid;
+    width: 100%;
+    text-align: center;
+  }
+}
