@@ -6,7 +6,7 @@ const routes = {
   '/': Home, // default page
   '/home': Home,
   '/favorites': Favorites,
-  'kuy-makan/detail/:id': Detail,
+  '/detail/:id': Detail,
 };
 
 export default routes;
