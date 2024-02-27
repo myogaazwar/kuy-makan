@@ -23,7 +23,7 @@ const createRestaurantItemTemplate = (restaurant) => `
         <p id="rating-text">Rating: <span id="restaurant-rating">${
           restaurant.rating || '-'
         }</span></p>
-        <h4 class="restaurant__title"><a href="kuy-makan#/detail/${
+        <h4 class="restaurant__title"><a href="#/detail/${
           restaurant.id
         }" id="restaurant-name">${restaurant.name || '-'}</a></h4>
         <p id="restaurant-description">${
