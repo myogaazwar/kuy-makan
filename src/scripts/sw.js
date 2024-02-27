@@ -1,4 +1,5 @@
 import CacheHelper from './utils/cache-helper';
+import 'regenerator-runtime';
 
 // Daftar asset yang akan di-caching
 const assetsToCache = [
@@ -28,3 +29,5 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   event.respondWith(CacheHelper.revalidateCache(event.request));
 });
+
+export default CacheHelper;
