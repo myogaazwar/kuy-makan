@@ -12,9 +12,9 @@ module.exports = {
     app: path.resolve(__dirname, 'src/scripts/index.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'build/'),
-    publicPath: '/',
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
